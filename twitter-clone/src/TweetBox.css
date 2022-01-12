@@ -22,18 +22,6 @@
   border: none;
 }
 
-.tweetBox__input {
-  padding: 20px;
-  display: flex;
-}
-
-.tweetBox__input > input {
-  flex: 1;
-  margin-left: 20px;
-  font-size: 10px;
-  border: none;
-}
-
 .tweetBox__imageInput {
   border: none;
   padding: 20px;

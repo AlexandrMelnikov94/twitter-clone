@@ -5,9 +5,9 @@
 }
 
 .sidebarOption:hover {
-  background-color: #e8f5fe;
+  background-color: var(--twitter-color-hover);
   border-radius: 30px;
-  color: var(--twitter-color);
+  /*color: var(--twitter-color);*/
   transition: color 0.1s ease;
 }
 
@@ -16,11 +16,11 @@
 }
 
 .sidebarOption > h2 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 20px;
   margin-right: 20px; /* ??? */
 }
 
-.sidebarOption--active {
-  color: var(--twitter-color);
+.sidebarOption--active > h2 {
+  font-weight: 700;
 }
